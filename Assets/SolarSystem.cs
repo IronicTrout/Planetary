@@ -9,6 +9,7 @@ public class SolarSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        //Determine the number of suns to put in the solar system. Max 2 for now.
 		num_suns = (int)Random.Range (1, 2);
 
 		num_planets = (int)Random.Range (5, 12);
