@@ -1,90 +1,75 @@
 Base path: /Applications/Unity/Hub/Editor/2018.1.3f1/Unity.app/Contents
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=14 insize=13402 outsize=96437 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at ../../Debug/DebugDisplay.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Debug.hlsl'
+  error: 2 plat 14 at ../../Lighting/Lighting.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/AreaLighting.hlsl'
+  error: 2 plat 14 at ../../Lighting/Lighting.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/CommonLighting.hlsl'
+  error: 2 plat 14 at ../../Lighting/Lighting.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/CommonShadow.hlsl'
+  error: 2 plat 14 at ../../Lighting/Lighting.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/ImageBasedLighting.hlsl'
+  error: 2 plat 14 at ../../Lighting/Lighting.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Sampling/Sampling.hlsl'
+  error: 2 plat 14 at ../../ShaderVariables.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/UnityInstancing.hlsl'
+  error: 2 plat 14 at ../Lighting/LightLoop/LightLoop.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Macros.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/BSDF.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Color.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/CommonMaterial.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Debug.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/EntityLighting.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/GeometricTools.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/ImageBasedLighting.hlsl'
+  error: 2 plat 14 at ../Material/Material.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Packing.hlsl'
+  error: 2 plat 14 at ../NormalBuffer.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/CommonMaterial.hlsl'
+  error: 2 plat 14 at ../NormalBuffer.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Packing.hlsl'
+  error: 2 plat 14 at ../Sky/AtmosphericScattering/AtmosphericScattering.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Filtering.hlsl'
+  error: 2 plat 14 at ../Sky/AtmosphericScattering/AtmosphericScattering.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/VolumeRendering.hlsl'
+  error: 2 plat 14 at ../SubsurfaceScattering/SubsurfaceScattering.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Packing.hlsl'
+  error: 2 plat 14 at Lit/Lit.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/VolumeRendering.hlsl'
+  error: 2 plat 14 at Lit/Lit.hlsl(0): failed to open source file: 'HDRP/Lighting/LightDefinition.cs.hlsl'
+  error: 2 plat 14 at Lit/Lit.hlsl(0): failed to open source file: 'HDRP/Lighting/Reflection/ScreenSpaceTracing.hlsl'
+  error: 2 plat 14 at Lit/Lit.hlsl(0): failed to open source file: 'HDRP/Lighting/Reflection/VolumeProjection.hlsl'
+  error: 2 plat 14 at ShadowContext.hlsl(0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/Shadow.hlsl'
+  api=14 insize=13247 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=13402 outsize=35585 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  api=14 insize=25381 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=13402 outsize=26205 ok=1
+  api=14 insize=2863 outsize=48901 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=48529 outsize=85537 ok=1
 Cmd: compileComputeKernel
-  api=14 insize=13402 outsize=60217 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=23645 outsize=40221 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=31249 outsize=56841 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=25177 outsize=42937 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=58845 outsize=117461 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=59965 outsize=119773 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=25849 outsize=44533 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=27117 outsize=47417 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=36057 outsize=67753 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=42033 outsize=80125 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=24917 outsize=42017 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=77777 outsize=167709 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=17773 outsize=34781 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=2125 outsize=3945 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=10669 outsize=18673 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=9881 outsize=16765 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  api=14 insize=1470 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=16785 outsize=16213 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=489 outsize=297 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=3393 outsize=6377 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=1697 outsize=1445 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=1445 outsize=2217 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=6761 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=7361 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=9209 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=9941 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=7421 ok=1
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=9197 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=11209 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=15322 outsize=12089 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=5445 outsize=9577 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=6009 outsize=10321 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7805 outsize=13873 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7521 outsize=13793 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=6897 outsize=12725 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=8985 outsize=17001 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=9549 outsize=17789 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=11921 outsize=22389 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=6056 outsize=17545 ok=1
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Common.hlsl'
+  error: 2 plat 14 at (0): failed to open source file: 'CoreRP/ShaderLibrary/Shadow/ShadowMoments.hlsl'
+  api=14 insize=16784 outsize=0 ok=0
 
 Quitting shader compiler process

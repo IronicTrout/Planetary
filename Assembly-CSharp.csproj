@@ -62,6 +62,7 @@
     <Compile Include="Assets\NameGenerator.cs" />
     <Compile Include="Assets\Planet.cs" />
     <Compile Include="Assets\SolarSystem.cs" />
+    <Compile Include="Assets\Star.cs" />
     <Reference Include="com.unity.render-pipelines.core.Editor">
       <HintPath>/Users/shoes/planetary/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>
     </Reference>
@@ -88,6 +89,15 @@
     </Reference>
     <Reference Include="com.unity.render-pipelines.core.IncludePaths">
       <HintPath>/Users/shoes/planetary/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>/Users/shoes/planetary/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.render-pipelines.lightweight.Runtime">
+      <HintPath>/Users/shoes/planetary/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.render-pipelines.lightweight.Editor">
+      <HintPath>/Users/shoes/planetary/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.1.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

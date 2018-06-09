@@ -41,11 +41,6 @@ public class Planet: MonoBehaviour {
 
 	//The rate at which resources are generated on the planet
 	private float resource_rate = 1.0f;
-
-	// Use this for initialization
-	void Start () {
-
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -64,11 +59,14 @@ public class Planet: MonoBehaviour {
 		GameObject planet_skeleton = (GameObject)Object.Instantiate (Resources.Load ("planet_skeleton")) as GameObject;
 		planet_skeleton.transform.SetParent (planet_controller.transform);
 
+        //Determine the scale of the moon.
+        scale = Random.Range(1, parent_scale / 10);
+
 		//Determine if the planet is a moon or not.
 		if (!isMoon) {
 
 			//Determine the size of the planet.
-			scale = Random.Range (1, 100);
+
 
 			//Determine the axial tilt of the planet
 			axis = Random.Range (-90, 90);
@@ -79,9 +77,6 @@ public class Planet: MonoBehaviour {
 			//Determine the number of moons the planet has, if any.
 			num_moons = (int)Random.Range(0, 5);
 		} else {
-
-			//Determine the size of the moon.
-			scale = Random.Range(1, parent_scale/10);
 
 			//Determine the axial tilt of the moon.
 			axis = Random.Range(-25, 25);
@@ -124,7 +119,7 @@ public class Planet: MonoBehaviour {
 		planet_controller.transform.rotation = axis_tilt;
 	}
 
-	public void movePlanet(float x, float y, float z){
+	public void movePlanet(float x, float y, float z) {
 
 		planet_controller.transform.position = new Vector3 (x, y, z);
 	}
