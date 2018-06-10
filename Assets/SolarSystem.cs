@@ -25,7 +25,7 @@ public class SolarSystem : MonoBehaviour {
 
 			GameObject planet_container = new GameObject ();
 			planet_container.name = "planet_container";
-			Planet planet = planet_container.AddComponent<Planet> (); 
+			Planet planet = planet_container.AddComponent<Planet> ();
             planet.Initialize (false, sun.getScale());
             float x_position = i * (500f);
 			planet.movePlanet(x_position, 0f, 0f);
