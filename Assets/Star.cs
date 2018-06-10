@@ -29,7 +29,6 @@ public class Star : MonoBehaviour {
         //star = (GameObject)Object.Instantiate(Resources.Load("star")) as GameObject;
         Material material = Resources.Load("Star Mat", typeof(Material)) as Material;
         Mesh mesh = (Mesh)Resources.Load("star", typeof(Mesh));
-
         star = new GameObject();
         MeshFilter meshFilter = star.AddComponent<MeshFilter>();
         meshFilter.sharedMesh = mesh;
@@ -37,7 +36,7 @@ public class Star : MonoBehaviour {
         meshRenderer.material = material;
 
         //Determine the size of the moon.
-        scale = Random.Range(1, 1000);
+        scale = Random.Range(100, 1000);
 
         //Determine the axial tilt of the moon.
         axis = Random.Range(-25, 25);
@@ -61,5 +60,10 @@ public class Star : MonoBehaviour {
     public void moveStar(float x, float y, float z) {
 
         star.transform.position = new Vector3(x, y, z);
+    }
+
+    public float getDiameter() {
+
+        return star.GetComponent<MeshFilter>().mesh.bounds.size.x * star.transform.localScale.x;
     }
 }

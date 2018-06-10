@@ -59,14 +59,17 @@ public class Planet: MonoBehaviour {
 		GameObject planet_skeleton = (GameObject)Object.Instantiate (Resources.Load ("planet_skeleton")) as GameObject;
 		planet_skeleton.transform.SetParent (planet_controller.transform);
 
-        //Determine the scale of the moon.
-        scale = Random.Range(1, parent_scale / 10);
+        if (parent_scale > 0) {
+            
+            //Determine the scale of the moon.
+            scale = Random.Range(1, parent_scale / 10);
+        }else {
+
+            scale = Random.Range(1, 100);
+        }
 
 		//Determine if the planet is a moon or not.
 		if (!isMoon) {
-
-			//Determine the size of the planet.
-
 
 			//Determine the axial tilt of the planet
 			axis = Random.Range (-90, 90);
@@ -128,4 +131,10 @@ public class Planet: MonoBehaviour {
 
 		this.system_name = new_system_name;
 	}
+
+    public float getRadius() {
+
+        return 0f;
+        //return planet_skeleton.GetComponent<MeshFilter>().mesh.bounds.size.x * planet_skeleton.transform.localScale.x;
+    }
 }
