@@ -1,7 +1,7 @@
-# Blender v2.78 (sub 0) OBJ File: 'planet_skeleton.blend'
+# Blender v2.79 (sub 0) OBJ File: 'planet_skeleton.blend'
 # www.blender.org
 mtllib planet_skeleton.mtl
-o Icosphere
+g planet_skeleton
 v 3.395069 -2.098294 2.466633
 v 3.600772 -2.225428 -2.616083
 v -3.594766 2.227685 2.621876

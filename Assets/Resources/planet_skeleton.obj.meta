@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: f9578204eecbd468393858a59935ba39
+guid: 3b7c445702f994797ab5a005def76a4e
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: default
+    100000: planet_skeleton
     100002: //RootNode
-    400000: default
+    400000: planet_skeleton
     400002: //RootNode
-    2100000: defaultMat
-    2300000: default
-    3300000: default
-    4300000: default
+    2100000: planet_skeletonMat
+    2300000: planet_skeleton
+    3300000: planet_skeleton
+    4300000: planet_skeleton
   externalObjects: {}
   materials:
     importMaterials: 1

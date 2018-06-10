@@ -27,13 +27,14 @@ public class Star : MonoBehaviour {
 
         //Always load the skeleton of the planet
         //star = (GameObject)Object.Instantiate(Resources.Load("star")) as GameObject;
+        Material material = Resources.Load("Star Mat", typeof(Material)) as Material;
+        Mesh mesh = (Mesh)Resources.Load("star", typeof(Mesh));
+
         star = new GameObject();
-        star.AddComponent<MeshFilter>();
-        star.AddComponent<MeshRenderer>();
-
-        star.GetComponent<MeshFilter>().mesh = Instantiate(Resources.Load("star")) as Mesh;
-        star.GetComponent<MeshRenderer>().material = Instantiate(Resources.Load("Star Mat")) as Material;
-
+        MeshFilter meshFilter = star.AddComponent<MeshFilter>();
+        meshFilter.sharedMesh = mesh;
+        MeshRenderer meshRenderer = star.AddComponent<MeshRenderer>();
+        meshRenderer.material = material;
 
         //Determine the size of the moon.
         scale = Random.Range(1, 1000);
